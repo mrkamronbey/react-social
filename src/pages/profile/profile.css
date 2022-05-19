@@ -1,0 +1,139 @@
+.profile{
+    display: flex;
+}
+
+.profileRight{
+    flex: 9;
+}
+
+.profileCover{
+    height: 250px;
+    position: relative;
+}
+
+.profileCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.profileUserImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 70px;
+    /* right: 0; */
+    margin: auto;
+    top: 200px;
+    border: 3px solid white;
+}
+.profileUserImgs{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    border: 3px solid #999;
+    margin-top: 20px;
+}
+.profileCovers{
+    width: 450px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: auto;
+    border: 2px solid #999;
+    margin-top: 20px;
+}
+.img-upload-box{
+    position: absolute;
+    right: 40px;
+    top: 200px;
+}
+.upload-btn{
+    text-transform: capitalize !important;
+    color: #000 !important;
+    background: #fff !important;
+}
+.upload-btn-icon{
+    color: #000 !important;
+    margin-right: 10px !important;
+}
+.profileInfo{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: top;
+    margin-left: 150px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.profileInfoName{
+    font-size: 24px;
+}
+
+.profileInfoDesc{
+    font-weight: 500;
+    color: #999;
+}
+
+.profileRightBottom{
+    display: flex;
+    margin-top: 100px;
+}
+.c-profil-btn-box{
+    display: flex;
+    align-items: center;
+}
+.c-profil-edit-icon{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.upload-btns{
+    display: flex !important;
+    align-items: center !important;
+    width: 200px !important;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+}
+.c-story-btn{
+    margin-left: 10px !important;
+    background: rgb(211, 211, 211) !important;
+    color: #000 !important;
+    text-transform: capitalize !important;
+}
+
+.c-scroll-modal{
+    overflow-y: scroll !important;
+    height: 450px !important;
+}
+.c-scroll-modal::-webkit-scrollbar {
+    width: 3px;
+}
+.c-scroll-modal::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+.c-scroll-modal::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+    border-radius: 5px;
+}
+
+.c-scrool-modal-box{
+    overflow-y: scroll !important;
+    height: 400px !important;
+}
+
+.c-scrool-modal-box::-webkit-scrollbar {
+    width: 3px;
+}
+.c-scrool-modal-box::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+.c-scrool-modal-box::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+    border-radius: 5px;
+}
